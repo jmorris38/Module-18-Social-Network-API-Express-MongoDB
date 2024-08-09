@@ -2,7 +2,7 @@
 A Social-Network API built using Express.js &amp; MongoDB
 
 ## Description
-This is an blogging website based on Node and Express.js API and configured with Sequelize to interact with a MySQL database.
+This is an social networking application based on Node and Express.js API and configured with mongoose to interact with a MongoDB database.
 
 ## Walkthrough Video Link
 [Walkthrough]()
@@ -24,13 +24,11 @@ SO THAT my website can handle large amounts of unstructured data
  npm install mongoose
 
  ## Preview
- <img src="" width="720" heigth="480">
+ <img src="./public/images/1.PNG" width="720" heigth="480">
 
- <img src="" width="720" heigth="480">
+ <img src="./public/images/2.PNG" width="720" heigth="480">
 
- <img src="" width="720" heigth="480">
-
- <img src="" width="720" heigth="480">
+ <img src="./public/images/3.PNG" width="720" heigth="480">
 
 
  ## License
