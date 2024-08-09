@@ -21,7 +21,7 @@ connection.once("open", async () => {
   // Loop to create 20 random users
   for (let i = 0; i < 20; i++) {
     const username = getRandomName();
-    const email = `${username.split(" ").join(".")}@example.com`;
+    const email = `${username.split(" ").join(".")}@gmail.com`;
     // Add the user to the users array
     users.push({
       username,
@@ -54,6 +54,6 @@ connection.once("open", async () => {
   // Log the users
   console.table(users);
   // Log the information about the seeding process and exit the process
-  console.info("Seeding complete! 🌱");
+  console.info("Seeding complete!");
   process.exit(0);
 });
